@@ -1,7 +1,22 @@
-function User() {
-    return (
-        <h1>Functional Component</h1>
-    )
+import React from "react";
+
+export class Profile extends React.Component {
+    render() {
+        return (
+            <div>
+                <h1>Class Component</h1>  
+            </div>   
+        )
+    }
 }
 
-export default User
+export class UserName extends React.Component {
+    render() {
+        return (
+            <div>
+                <h1>Usernam Component</h1>  
+            </div>   
+        )
+    }
+}
+
