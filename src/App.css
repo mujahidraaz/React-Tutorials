@@ -14,6 +14,20 @@ h1 {
   font-size: 30px;
   padding: 30px 0px;
 }
+.mainn h1 {
+  padding: 0px 50px;
+}
+.mainn {
+  display: flex;
+  justify-content: center;
+}
+.main {
+  display: flex;
+  justify-content: center;
+}
+.main h1 {
+  margin: 0px 30px;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
