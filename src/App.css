@@ -6,6 +6,7 @@
   height: 40vmin;
   pointer-events: none;
 }
+<<<<<<< HEAD
 body {
   background-color:#00bcd4;
 }
@@ -15,6 +16,14 @@ h1 {
   padding: 30px 0px;
 }
 
+=======
+h1 {
+  text-align: center;
+}
+body {
+  background-color: #61dafb;
+}
+>>>>>>> d491c81 (new code)
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -35,9 +44,12 @@ h1 {
 .App-link {
   color: #61dafb;
 }
+<<<<<<< HEAD
 h1 {
   text-align: center;
 }
+=======
+>>>>>>> d491c81 (new code)
 
 @keyframes App-logo-spin {
   from {
