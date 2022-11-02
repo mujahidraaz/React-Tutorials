@@ -4,7 +4,7 @@ function Home() {
     }
     return(
         <div>
-            <button onClick={() => ClickMe(" Mujahid")}>Click Me</button>
+           <h1>Hello World</h1>
         </div>
     )
 }
