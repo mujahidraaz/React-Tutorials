@@ -1,0 +1,14 @@
+$color:white;
+$background:red;
+$width:500px;
+$padding:30px;
+$margin:30px auto;
+
+
+.home {
+    color: $color;
+    background-color: $background;
+    padding: $padding;
+    width: $width;
+    margin: $margin;
+}
