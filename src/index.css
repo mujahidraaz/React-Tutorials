@@ -11,3 +11,70 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+body {
+  background-color:#00bcd4;
+}
+h1 {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  padding: 30px 0px;
+}
+.form {
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+}
+form input[type="text"],
+form input[type="email"],
+form select {
+  padding: 10px;
+  width: 95%;
+  border: none;
+  border-radius: 9px;
+  margin-bottom: 10px;
+  display: block;
+}
+.form form {
+  width: 50%;
+  background-color: red;
+  padding: 20px;
+  border-radius: 9px;
+  box-sizing: border-box;
+}
+.form select {
+  width: 100%;
+}
+.form span {
+  color: white;
+}
+.form input[type="submit"] {
+  background-color: white;
+  border-radius: 9px;
+  border: inherit;
+  display: block;
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 14px;
+}
+.output {
+  width: 50%;
+  background-color: lightgoldenrodyellow;
+  padding: 0px 20px;
+  box-sizing: border-box;
+  margin-left: 10px;
+  border-radius: 9px;
+}
+.output h3 {
+  color: black;
+  font-weight: bold;
+  font-size: 22px;
+}
+.output span {
+  color: black;
+  font-weight: bold;
+  margin-right: 10px;
+}
+.output li {
+  font-size: 24px;
+}
