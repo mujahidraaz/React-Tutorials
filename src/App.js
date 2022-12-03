@@ -1,25 +1,28 @@
 import logo from './logo.svg';
 import './App.css';
-import { useState } from 'react';
+
+import React, {useRef} from 'react';
 
 function App() {
 
-  const [data, setData] = useState('React Form Input')
+  const useRefVal = useRef()
 
-  function onChange(val) {
-    // console.log(val.target.value)
-    setData(val.target.value)
-
-    
+  function InputValue() {
+    useRefVal.current.focus();
+    useRefVal.current.style.color = "green"
   }
+ 
 
   return (
     <div className="App">
-      <h1>{data}</h1>
-      <input placeholder='Full Name' onChange={onChange}/>
+      <h1>useRef Hook #29</h1>
+
+      <input type="text" ref={useRefVal}/>
+      <button onClick={InputValue}>Input Click</button>
 
     </div>
   );
-}
+
+  }
 
 export default App;
