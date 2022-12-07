@@ -1,10 +1,8 @@
-import React, {useContext} from "react"
-import {useCounter} from './App'
+import React, {memo} from "react"
 
-function Timer() {
-    const counter = useContext(useCounter)
-    return (
-        <h1>Timer <span>{counter}</span></h1>
-    )
+function Timer({addition, timer}) {
+
+    console.log('lorem ipsum')
 }
-export default Timer
+
+export default memo(Timer)
